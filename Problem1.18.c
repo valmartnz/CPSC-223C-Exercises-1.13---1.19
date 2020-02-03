@@ -38,7 +38,7 @@ int gline(char s[], int lim) {
 	return i;
 }
 
-// copy: copy `from` into `to`; assume `to` is big enough
+// removes blanks, taps, and blank lines
 int removeBlanks(char s[]) {
 	int i;
 	
